@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 19932 //F)",
+      "Bash(\"C:/Users/user/AppData/Local/Programs/Python/Python312-32/python.exe\" -m nh_sync.sync --holdings)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s http://localhost:8000/api/nh/accounts)",
+      "Bash(\"C:/Users/user/AppData/Local/Programs/Python/Python312-32/python.exe\" -c \":*)",
+      "Bash(\"C:/Users/user/AppData/Local/Programs/Python/Python312-32/python.exe\" -m nh_sync.sync --transactions --account-index 3 --start-date 20260331 --end-date 20260331)",
+      "Bash(python -c \":*)",
+      "Bash(grep -r \"args.credentials\\\\|--credentials\" /c/works/stock-advisor --include=*.py)",
+      "Bash(ls -la /c/works/stock-advisor/*.py /c/works/stock-advisor/backend/*.py /c/works/stock-advisor/nh_sync/*.py)",
+      "Bash(\"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --list-accounts)",
+      "Bash(echo \"EXIT_CODE=$?\")",
+      "Bash(\"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m pip install keyring)",
+      "Bash(\"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -c \"import keyring; print\\(keyring.get_password\\(''NH_stock_bot'', ''user_id''\\)\\)\")",
+      "Bash(\"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --transactions --account-index 3 --start-date 20260401 --end-date 20260413)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --transactions --account-index 3 --start-date 20260407 --end-date 20260410)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --transactions --account-index 3 --start-date 20260316 --end-date 20260320)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --transactions --account-index 3 --start-date 20260316 --end-date 20260316)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --sync-all-accounts --start-date 20260310 --end-date 20260413)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --sync-all-accounts --all --start-date 20250101 --end-date 20260413)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --transactions --account-index 1 --start-date 20250819 --end-date 20250819)",
+      "Bash(PYTHONIOENCODING=utf-8 \"C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312-32\\\\python.exe\" -m nh_sync.sync --transactions --account-index 1 --start-date 20250101 --end-date 20260413)",
+      "Bash(python migrate_realized_profit.py)",
+      "Bash(python -c ':*)",
+      "Read(//mnt/**)",
+      "Bash(ls -la /wsl)",
+      "Bash(wc -l /c/works/stock-advisor/frontend/src/pages/*.jsx /c/works/stock-advisor/frontend/src/components/*.jsx /c/works/stock-advisor/nh_sync/*.py /c/works/stock-advisor/backend/routers/*.py)",
+      "Bash(pip install:*)",
+      "WebSearch",
+      "Bash(curl -s http://localhost:8000/api/analysis/saved)",
+      "Bash(python -m json.tool)",
+      "Bash(python -c \"from database import engine; from sqlalchemy import inspect; print\\(inspect\\(engine\\).get_table_names\\(\\)\\)\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f\\\\\"status: {d['status']}, saved_at: {d['saved_at']}, results: {len\\(d.get\\('results',[]\\)\\)} items\\\\\"\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.env
+__pycache__/
+*.db
+dist/
+.vite/
+st_env/
+.env.local
+.env

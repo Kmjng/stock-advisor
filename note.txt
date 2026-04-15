@@ -1,0 +1,33 @@
+
+# 백엔드 (터미널 1)
+cd C:\works\stock-advisor\backend
+python -m uvicorn main:app --reload --port 8000
+
+
+# 프론트엔드 (터미널 2)
+cd C:\works\stock-advisor\frontend
+npm run dev
+
+------------------------------------------------------
+20501321618 (product=004) - 주식
+20502321618 (product=014) - 퇴직연금 (이전에 보이던 것)
+20802652222 (product=004) - 주식
+20503321618 (product=004) - 주식
+
+account_index = 3
+
+------------------------------------------------------
+*백엔드(FastAPI, 포트 8000)**와 **프론트엔드(Vite, 포트 5173)**
+
+
+Uvicorn은 Python용 웹 서버입니다.
+
+쉽게 말하면:
+
+FastAPI로 작성한 백엔드 코드(main.py)는 그 자체로는 실행이 안 됩니다
+Uvicorn이 그 코드를 실제로 서버로 띄워주는 역할을 합니다
+main:app → main.py 파일의 app 객체를 실행하라는 뜻
+즉, FastAPI = 백엔드 코드, Uvicorn = 그걸 돌려주는 서버 엔진 이라고 보시면 됩니다.
+
+--reload 옵션은 코드 수정하면 자동으로 서버를 재시작해주는 개발용 옵션이고요.
+
