@@ -85,7 +85,7 @@ export default function PnL() {
           <p className="text-xl font-bold text-slate-800">{pnl.total_trades}회</p>
         </div>
         <div className="bg-white rounded-xl border border-slate-200 p-4">
-          <p className="text-xs font-medium text-slate-500 mb-1">승률</p>
+          <p className="text-xs font-medium text-slate-500 mb-1">수익 거래 비율 <span className="font-normal">(수익 매도 ÷ 전체 매도)</span></p>
           <p className="text-xl font-bold text-slate-800">{pnl.win_rate}%</p>
         </div>
         <div className="bg-white rounded-xl border border-slate-200 p-4">

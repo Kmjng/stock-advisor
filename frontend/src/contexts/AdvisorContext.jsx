@@ -65,6 +65,10 @@ export function AdvisorProvider({ children }) {
             } else if (data.status === 'completed') {
               setCompletedNodes(prev => [...prev, data.node])
               setNodeMeta(prev => ({ ...prev, [data.node]: data }))
+            } else if (data.status === 'error') {
+              setError(data.error || '분석 중 오류가 발생했습니다.')
+              setRunning(false)
+              return
             }
           } catch {}
         }
